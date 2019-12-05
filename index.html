@@ -1,5 +1,19 @@
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NFC test</title>
+  </head>
   <body>
+
     <h1>Hello world</h1>
+    <p>
+      <button class="btn btn-lg btn-default" onclick="readWriteNfc()">Test NFC Read/Write</button>
+    </p>
+
+    <pre id="log"></pre>
+
+    <p><small>Based on the code snippets from <a href="https://w3c.github.io/web-nfc/#examples">specification draft</a>.</small></p>
   </body>
+  <script src="src.js"></script>
 </html>
